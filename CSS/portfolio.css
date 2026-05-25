@@ -12,7 +12,7 @@ body{
     height: 100%;
     padding-right: 1%;
     border-radius: 0% 50% 300% 0%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     transition: all 0.5s cubic-bezier(.9, 0, .33, 1);
@@ -193,6 +193,7 @@ img {
     background: #6b3d2e;
     border-radius: 12px;
     overflow: hidden;
+    cursor: pointer;
     transition: 0.3s;
 }
 .card img {
@@ -209,13 +210,13 @@ img {
     font-size: 20px;
     opacity: 0.8;
 }
-.card-link{
+a{
     text-decoration: none;
     color: inherit;
 }
 /* hover эффект */
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 /* верхние карточки */
 .portfolio {
@@ -264,6 +265,12 @@ img {
         width: 60px;
         position: static;
     }
+    .logo:hover{
+        width: 60px;
+    }
+    .nav_open .logo_menu .logo:hover{
+        width: 60px;
+    }
     .menu {
         display: flex;
         gap: 25px;
@@ -286,16 +293,15 @@ img {
         flex-direction: column;
         align-items: center;
     }
-    .portfolio-card {
-        width: 90%;
+    .portfolio-card,
+    .c {
+        width: 100%;
+        max-width: 700px;
     }
     .work.active {
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
-    }
-    .card {
-        width: 90%;
     }
 }
 @media (max-width: 768px){

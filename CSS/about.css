@@ -241,6 +241,12 @@ ion-icon, svg{
         width: 60px;
         position: static;
     }
+    .logo:hover{
+        width: 60px;
+    }
+    .nav_open .logo_menu .logo:hover{
+        width: 60px;
+    }
     .menu {
         display: flex;
         gap: 25px;
