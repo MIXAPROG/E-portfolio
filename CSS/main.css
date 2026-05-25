@@ -147,7 +147,7 @@ p{
     width: 45px;}
     .line{width: 45px;}
 }
-@media (max-width: 1024px){
+@media (max-width: 1440px){
     .navigation {
         position: relative;
         width: 100%;
@@ -186,6 +186,7 @@ p{
     }
     nav a {
         font-size: 24px;
+        margin-top: 10px;
     }
 }
 @media (max-width: 768px){
@@ -206,5 +207,6 @@ p{
     }
     nav a {
         font-size: 20px;
+        
     }
 }

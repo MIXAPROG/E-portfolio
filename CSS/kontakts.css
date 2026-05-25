@@ -98,7 +98,6 @@ nav a:hover{
     width: 0;
 }
 .nav_open .bottom{
-    width: 55px;
     top: 21px;
     transform: rotate(-45deg);
 }
@@ -190,6 +189,7 @@ main {
     }
     nav a {
         font-size: 24px;
+        margin-top: 10px;
     }
     /* MAIN CONTENT */
     main {
