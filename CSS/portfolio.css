@@ -187,7 +187,8 @@ img {
     gap: 25px;
     margin-top: 200px;
 }
-a{
+a,
+a:active{
     text-decoration: none;
     color: inherit;
 }
